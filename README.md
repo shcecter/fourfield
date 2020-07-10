@@ -14,10 +14,10 @@
 - [click](https://pypi.org/project/click/)
 - [fpdf](https://pypi.org/project/fpdf/)
 
-Для запуска скрипта необходимо находится в корневой папке скрипта: \\
- cd *path_to_foufield*\\
- activate fourfield\\
- python fourfieldreport.py\\
+Для запуска скрипта необходимо находится в корневой папке скрипта: \
+ cd *path_to_foufield*\
+ activate fourfield\
+ python fourfieldreport.py\
 
 # Использование
 Для работы изначальные данные по четырём полям необходимо добавить в табличном виде в .xlsx файл,
