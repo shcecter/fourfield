@@ -22,10 +22,10 @@ def plot_fields(axis, weigths, scale_coef=0.2):
     '''
     # ЛП, ЛН, ПП, ПН
     centers_grid = np.meshgrid([0.25, 0.75], [0.25, 0.75])
-    quadrant_table = {'1': (centers_grid[0][0,1], centers_grid[1][1,0]),
-                      '2': (centers_grid[0][0,0], centers_grid[1][1,1]),
-                      '3': (centers_grid[0][1,0], centers_grid[1][0,1]),
-                      '4': (centers_grid[0][1,1], centers_grid[1][0,0])}
+    quadrant_table = {'1': (centers_grid[0][0, 1], centers_grid[1][1, 0]),
+                      '2': (centers_grid[0][0, 0], centers_grid[1][1, 1]),
+                      '3': (centers_grid[0][1, 0], centers_grid[1][0, 1]),
+                      '4': (centers_grid[0][1, 1], centers_grid[1][0, 0])}
 
     weigths = np.array([weigths[field] for field in ['Левая Пятка', 'Правая Пятка', 'Левый Носок', 'Правый Носок']])
     weigths = weigths * scale_coef / weigths.max()
