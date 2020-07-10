@@ -8,9 +8,9 @@
 
 Далее необходимо установить:
 
-- pandas  --  conda install pandas, conda install xlrd
-- matplotlib -- conda install matplotlib
-- numpy  --  conda install numpy
+- pandas  -  conda install pandas, conda install xlrd
+- matplotlib - conda install matplotlib
+- numpy  -  conda install numpy
 - [click](https://pypi.org/project/click/)
 - [fpdf](https://pypi.org/project/fpdf/)
 
@@ -37,5 +37,5 @@
 `output/'`
 
 ### Аргументы
--f | --filename -- имя файла (должен находится в `'data/'`)\
--n | --patient_name -- ФИО пациента (соотвествует ФИО в таблице), опционально, если нужно сгенерировать отчёт для одного пациента
+-f | --filename  -  имя файла (должен находится в `'data/'`)\
+-n | --patient_name - ФИО пациента (соотвествует ФИО в таблице), опционально, если нужно сгенерировать отчёт для одного пациента
