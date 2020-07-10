@@ -8,9 +8,9 @@
 
 Далее необходимо установить:
 
-- pandas  -  conda install pandas, conda install xlrd
-- matplotlib - conda install matplotlib
-- numpy  -  conda install numpy
+- pandas  -  `conda install pandas`, `conda install xlrd`
+- matplotlib - `conda install matplotlib`
+- numpy  -  `conda install numpy`
 - [click](https://pypi.org/project/click/)
 - [fpdf](https://pypi.org/project/fpdf/)
 
@@ -30,7 +30,7 @@
 ## Вариант 2.
 Использование для формирования отчётов для всех пациентов в .xlsx файле:
 - Добавить данные всех пациентов в .xlsx файл
-- запустить скрипт `python fourfield.py -f "path_to_xlsx"
+- запустить скрипт `python fourfield.py -f "path_to_xlsx"`
 
 ### Резульататы работы:
 
